@@ -616,7 +616,7 @@ def main():
                 system2('mkdir -p tmpdeb/usr/share/icons/hicolor/256x256/apps/')
                 system2('mkdir -p tmpdeb/usr/share/icons/hicolor/scalable/apps/')
                 system2(
-                    'cp res/reachdesk.service tmpdeb/usr/share/rustdesk/files/systemd/')
+                    'cp res/reachdesk.service tmpdeb/usr/share/reachdesk/files/systemd/')
                 system2(
                     'cp res/128x128@2x.png tmpdeb/usr/share/icons/hicolor/256x256/apps/reachdesk.png')
                 system2(
