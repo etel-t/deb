@@ -631,7 +631,7 @@ def main():
                 os.system('cp res/xorg.conf tmpdeb/etc/X11/reachdesk/')
                 os.system('cp -a res/DEBIAN/* tmpdeb/DEBIAN/')
                 os.system('mkdir -p tmpdeb/etc/pam.d/')
-                os.system('cp res/pam.d/reachdesk.debian tmpdeb/etc/pam.d/reachdesk')
+                os.system('cp res/pam.d/rustdesk.debian tmpdeb/etc/pam.d/reachdesk')
                 system2('strip tmpdeb/usr/bin/reachdesk')
                 system2('mkdir -p tmpdeb/usr/lib/raechdesk')
                 system2('mv tmpdeb/usr/bin/reachdesk tmpdeb/usr/lib/reachdesk/')
